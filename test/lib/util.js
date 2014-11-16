@@ -1,4 +1,4 @@
-var fs = require('fs')
+var fs = require('graceful-fs')
 var sr = require('secure-random')
 
 function createFileWithData(file, size) {
